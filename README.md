@@ -18,13 +18,17 @@ Currently refreshing my skills in **Python, API testing, and automation**.
 ## 🚀 Projects
 
 ### 1️⃣ Messaging API Simulation with Automated Testing
-A backend API project simulating a messaging service with a fake third-party provider and asynchronous webhook-based delivery updates.  
+Designed and built a backend messaging service using **Python and Flask** that supports multiple message providers with a modular architecture.
 
-**Highlights:**
-- Implemented automated API tests using **pytest**
-- Status lifecycle validation and error handling
-- Webhook simulation for asynchronous updates
-- Dependency injection and provider mocking
+Key features include:
+- **Provider abstraction layer** supporting multiple implementations (FastMessageProvider, ReliableMessageProvider)
+- **Centralized logging with sensitive data masking**
+- **Request and message tracking**
+- **Automated testing using Pytest**
+- **Static code analysis using Flake8**
+- **CI pipeline with GitHub Actions** to run linting and tests on every commit
+
+The project demonstrates backend design patterns such as **provider strategy, service-layer architecture, observability through structured logging, and CI-driven development workflows**.
 
 **GitHub:** [messaging-api-automation](https://github.com/LakshmiGollapalli/messaging-api-automation)
 
